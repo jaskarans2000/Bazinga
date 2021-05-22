@@ -77,7 +77,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin{
                     ),
                     Padding(
                       padding: const EdgeInsets.fromLTRB(0.0,16.0,0.0,12.0),
-                      child: Text("Hello, Jaskaran.", style: TextStyle(fontSize: 30.0, color: Colors.white, fontWeight: FontWeight.w400),),
+                      child: Text("Hello, Jane.", style: TextStyle(fontSize: 30.0, color: Colors.white, fontWeight: FontWeight.w400),),
                     ),
                     Text("Looks like feel good.", style: TextStyle(color: Colors.white),),
                     Text("You have 3 tasks to do today.", style: TextStyle(color: Colors.white,),),
@@ -90,7 +90,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin{
               children: <Widget>[
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 64.0, vertical: 16.0),
-                  child: Text("TODAY : MAY 22, 2021", style: TextStyle(color: Colors.white),),
+                  child: Text("TODAY : JUL 21, 2018", style: TextStyle(color: Colors.white),),
                 ),
                 Container(
                   height: 350.0,
